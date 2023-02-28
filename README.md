@@ -2,7 +2,7 @@
 
 A simple way to scape websites, just download the HTML once, and process it as many times as you want.
 
-<img style="text-align: center;" width="400" src="https://i.imgur.com/dCkZlaF.png"/>
+<img width="400" src="https://i.imgur.com/dCkZlaF.png"/>
 
 ## Usage
 
