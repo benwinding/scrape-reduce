@@ -1,0 +1,22 @@
+{
+  "name": "scrape-reduce",
+  "version": "1.0.0",
+  "license": "MIT",
+  "scripts": {
+    "scrape": "ts-node ./src/1scrape.ts",
+    "reduce": "ts-node ./src/2reduce.ts"
+  },
+  "dependencies": {
+    "@types/jsdom": "^21.1.0",
+    "@types/node": "^18.14.2",
+    "@types/node-fetch": "^2.6.2",
+    "bottleneck": "^2.19.5",
+    "exceljs": "^4.1.1",
+    "jsdom": "^16.4.0",
+    "node-fetch": "2.x",
+    "puppeteer": "^5.2.1",
+    "ts-node": "^10.9.1",
+    "tsconfig-paths": "^3.14.2",
+    "typescript": "^4.9.5"
+  }
+}

@@ -1,0 +1,56 @@
+{
+  // Use IntelliSense to learn about possible attributes.
+  // Hover to view descriptions of existing attributes.
+  // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "node",
+      "request": "launch",
+      "name": "Launch Scraper",
+      "skipFiles": [
+        "<node_internals>/**",
+        "node_modules/**",
+      ],
+      "cwd": "${workspaceRoot}",
+      "internalConsoleOptions": "openOnSessionStart",
+      "env": {
+        "LOCAL_MODE": "true",
+      },
+      "args": [
+        "node_modules/ts-node/dist/bin.js",
+        "-r",
+        "tsconfig-paths/register",
+        "src/1scrape.ts",
+      ],
+      "runtimeArgs": [
+        "--unhandled-rejections=strict",
+        "--nolazy",
+      ],
+    },
+    {
+      "type": "node",
+      "request": "launch",
+      "name": "Launch Reducer",
+      "skipFiles": [
+        "<node_internals>/**",
+        "node_modules/**",
+      ],
+      "cwd": "${workspaceRoot}",
+      "internalConsoleOptions": "openOnSessionStart",
+      "env": {
+        "LOCAL_MODE": "true",
+      },
+      "args": [
+        "node_modules/ts-node/dist/bin.js",
+        "-r",
+        "tsconfig-paths/register",
+        "src/2reduce.ts",
+      ],
+      "runtimeArgs": [
+        "--unhandled-rejections=strict",
+        "--nolazy",
+      ],
+    },
+ ]
+}
