@@ -1,6 +1,6 @@
 # scrape-reduce
 
-A simple way to scape websites, just download the HTML once, and process it as many times as you want.
+A simple way to scrape websites, just download the HTML once, and process it as many times as you want.
 
 <img width="400" src="https://i.imgur.com/6z19dNK.png"/>
 
