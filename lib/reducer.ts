@@ -9,7 +9,7 @@ function getId(filePath: string) {
 }
 
 const limiter = new Bottleneck({
-  maxConcurrent: 3,
+  maxConcurrent: 10,
 });
 
 export class Reducer {

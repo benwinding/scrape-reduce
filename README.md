@@ -20,6 +20,7 @@ npm install
   - Runs the `scrape.ts` in the `src` directory
     - Provide your own fetch method etc...
     - This caches based on the ID provided for each page
+  - Requests are limited to `3` concurrent requests, by default
 2. `npm run reduce`
   - Transforms the local HTML into what ever you need
   - The text returned is saved to `reduced`
